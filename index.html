@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+	<html>
+    <head>
+      <meta charset="UTF-8"/>
+      <title>Сайт какой-то</title> 
+      <link href="css style.css" rel="stylesheet" type="text/css"/>
+      <link rel="stylesheet" href="font/css/font-awesome.min.css">
+	  </head>
+
+    <div class="old-browser-msg">Вы исползуете устаревший браузер.</div>  
+
+    <body>
+      <div class="center">
+        <div class="form">
+          <button class="login-button">Войти</button>
+          <input id="email" placeholder="Email" class="email-input">
+          <div class="form-element">
+            <input type="password" id="password-field"  placeholder="Password" class="password-input">
+            <div class="toggle-password">
+              <i class="fa fa-eye"></i>              
+            </div>
+
+            <div class="error-list"></div>
+            <div class="success-msg "></div>
+          </div>
+        </div>
+      </div>
+
+      <span id="doc_time">
+      Дата и время
+      </span>
+
+      <script src="ie-checker.js"></script>
+      <script src="form-validation.js"></script>
+      <script src="clock.js"></script>
+  </body>
+</html>
